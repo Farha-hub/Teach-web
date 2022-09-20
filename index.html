@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap-5</title>
+    <title>Teach-web-5</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,6 +17,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
 
   <body>
@@ -55,11 +56,11 @@
                 Services
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">SEO</a></li>
-                <li><a class="dropdown-item" href="#">Web Desing</a></li>
+                <li><a class="dropdown-item" href="#Services">SEO</a></li>
+                <li><a class="dropdown-item" href="#Services">Web Desing</a></li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href="#">Graphics Desing</a>
+                  <a class="dropdown-item" href="#Services">Graphics Desing</a>
                 </li>
               </ul>
               <li class="nav-item">
@@ -118,12 +119,12 @@
     <section id="about" class="about my-5">
         <div class="container ">
           <div class="text-center my-5">
-            <h1>About <span class="text-primary"> Me</span></h1>
+            <h1 data-aos="fade-up" data-aos-offsed="200">About <span class="text-primary"> Me</span></h1>
             <hr class="w-25 m-auto">
           </div>
 
           <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="zoom-in" data-aos-offsed="200">
               <h1 class="mt-4">What do you <span class="text-primary">want to know ?</span></h1>
              <p class="p-2">Use our powerful mobile-first flexbox grid  to build
               layouts of all shapes and sizes thanks to a  twelve
@@ -131,7 +132,7 @@
               Variavbles and mixins, and dozens of predefined classes
              </p>
              <button type="button" class="btn btn-light">More about me</button>
-             <div class="accordion" id="accordionExample">
+             <div class="accordion" id="accordionExample" data-aos="zoom-in-left" data-aos-offsed="200">
               <div class="accordion-item mt-4 ">
                 <h2 class="accordion-header" id="headingOne">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -171,7 +172,7 @@
             </div>
             </div>
           
-            <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end" data-aos="fade-right" data-aos-offsed="200">
               <img src="images/s6.jpg" class="img-fluid img-thumbnail" alt="">
             </div>
           </div>
@@ -180,14 +181,14 @@
     </section>
 
     <!-- Services section  -->
-    <section class="Services py-5 bg-light">
+    <section id="Services" class="Services py-5 bg-light">
       <div class="container">
         <div class="text-center my-5">
-          <h1>Our<span class="text-primary"> Services</span></h1>
+          <h1 data-aos="zoom-in-up" data-aos-offsed="200">Our<span class="text-primary"> Services</span></h1>
           <hr class="w-25 m-auto">
         </div>
         
-        <div class="row">
+        <div class="row" data-aos="zoom-in-up" data-aos-offsed="200">
         <div class="col-sm-12 col-md-4 col-lg-4 col-12">
           <div class="card">
             <div class="card-body">
@@ -221,7 +222,7 @@
           </div>
         </div>
         </div>
-        <div class="row mt-5">
+        <div class="row mt-5" data-aos="zoom-in-down" data-aos-offsed="200" >
         <div class="col-sm-12 col-md-4 col-lg-4 col-12">
           <div class="card">
             <div class="card-body">
@@ -260,11 +261,11 @@
     <section id="ourteam" class="Our team text text-center">
       <div class="container">
         <div class="text-center my-5">
-          <h1>Our<span class="text-primary">Team</span></h1>
+          <h1 data-aos="zoom-in-up" data-aos-offsed="200">Our<span class="text-primary">Team</span></h1>
           <hr class="w-25 m-auto">
         </div>
 
-        <div class="row">
+        <div class="row" data-aos="zoom-in-up" data-aos-offsed="200">
           <div class="col-sm-12 col-md-4 col-lg-4 col-12">
             <div class="card">
               <div class="card-body">
@@ -303,11 +304,11 @@
     <section id="contact" class="contact py-5">
       <div class="container">
         <div class="text-center my-5">
-          <h1>Feel Free<span class="text-primary"> To Contact</span></h1>
+          <h1 data-aos="fade-up" data-aos-offsed="200">Feel Free<span class="text-primary"> To Contact</span></h1>
           <hr class="w-25 m-auto">
         </div>
         <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="fade-up-left" data-aos-offsed="200">
             <form class="row g-3">
               <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Email</label>
@@ -350,14 +351,14 @@
               </div>
             </form>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end p-4">
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end p-4" data-aos="fade-up-right" data-aos-offsed="200">
             <img src="images/s2.jpg" class="img-fluid img-thumbnail p-2" alt="">
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Footer section  -->
+    <!-- Footer  -->
     <footer class="container-fluid bg-primary text-white p-2 text-center fs-4">
       Developed by Farhan Uddin
     </footer>
@@ -366,5 +367,9 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
